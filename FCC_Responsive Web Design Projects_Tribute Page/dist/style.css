@@ -1,0 +1,42 @@
+body {
+  background-color:  #202946;
+  color: #FFF;
+}
+
+header {
+  text-align: center;
+  
+}
+
+#main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#image{
+  max-width: 100%;
+  height: auto;
+  margin: 1rem;
+}
+#title-img{
+  max-width: 100%;
+  height:auto;
+}
+
+#img-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+ul{
+  line-height: 2em;
+}
+
+footer{
+  display: grid;
+  justify-items: center;
+}
