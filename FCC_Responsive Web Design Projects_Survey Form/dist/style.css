@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@200;400;500;800&display=swap');
+
+html{
+  background-image:  linear-gradient(
+      115deg,
+      rgba(72, 58, 158, 0.8),
+      rgba(76, 136, 206, 0.7)
+    ), url(https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  color: white;
+  font-family: "Bitter",serif;
+}
+
+header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+}
+
+form{
+  background: rgba(155,102,202,0.4);
+  display:flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 30vmin;
+  margin-right: 30vmin;
+  font-weight: 200;
+  border-radius: 20px;
+  padding-top: 1em;
+  padding-bottom: 1.5em;
+}
+#submit{
+  margin: 2em 0 0 2em;
+  border-radius: 6px;
+  background-color: #466953;
+  color: #d0d5db;
+  animation
+}
+
+#submit:hover{
+  animation-name: change-button-color;
+  animation-duration: 200ms;
+  animation-fill-mode: forwards;
+}
+
+@keyframes change-button-color{
+  100%{
+     background-color: #588c6b;
+     transform: scale(1.1);
+  }
+  @media screen and (max-width: 600px){
+    form{
+      margin-left: 40vmin;
+      marign-right: 40vmin;
+    }
+  }
+}
