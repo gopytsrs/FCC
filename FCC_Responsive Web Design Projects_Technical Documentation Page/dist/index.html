@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - FCC: Response Web Design Projects: Technical Documentation</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Technical Documentation</title>
+</head>
+<body>
+  <main id="main-doc">
+    <section class="main-section" id="Introduction">
+      <header><h2>Introduction</h2></header>
+      <p>Python is a programming language that lets you work quickly
+and integrate systems more effectively.</p>
+        <p>Python can be easy to pick up whether you're a first time programmer or you're experienced with other languages. The following pages are a useful first step to get on your way writing programs with Python!</p>
+      </section>
+    <section class="main-section" id="Variables">
+      <header><h2>Variables</h2></header>
+        <p>Python has no command for declaring a variable.
+
+A variable is created the moment you first assign a value to it.</p>
+      <span>Example: </span>
+      <code>x = 5, y = "John"</code>
+      <h3>Variable naming conventions</h3>
+      <ul>
+        <li>A variable name must start with a letter or the underscore character</li>
+        <li>A variable name cannot start with a number</li>
+        <li>A variable name can only contain alpha-numeric characters and underscores (A-z, 0-9, and _ )</li>
+        <li>Variable names are case-sensitive (age, Age and AGE are three different variables)</li>
+      </ul>
+      </section>
+    
+    <section class="main-section" id="Data_types">
+      <header><h2>Data types</h2></header>
+        <p>Python has the following data types built-in by default, in these categories:</p>
+      <ul>
+        <li>Text Type: <code>str</code></li>
+        <li>Numeric Types:	<code>int, float, complex</code></li>
+        <li>Sequence Types: <code>list, tuple, range</code></li>
+        <li>Mapping Type:	<code>dict</code></li>
+        <li>Set Types:	<code>set, frozenset</code></li>
+        <li>Boolean Type:	<code>bool</code></li>
+        <li>Binary Types:	<code>bytes, bytearray, memoryview</code></li>
+      </ul>
+            <h3>Getting the type of variables</h3>
+      <p>You can get the type of variables by an inbuilt function <code>type()</code></p>
+      <span>Example:</span>
+      <p><code>type(x)</code> will return int based on above example. <code>type(y)</code> will return string based on above example.</p>
+      </section>
+    <section class="main-section" id="Operators">
+      <header><h2>Operators</h2></header>
+        <p>There are many different types of operators in Python, some examples are Arithemtic, Comparison and Logical operators</p>
+      <h3>Arithmetic operators:</h3>
+      <p>Used for arithmetic operations.</p>
+      <table>
+        <thead>
+          <td>Operator</td>
+          <td>Name</td>
+          <td>Usage</td>
+        </thead>
+        <tr>
+          <td>+</td>
+          <td>Addition</td>
+          <td><code>2 + 1</code></td>
+        </tr>
+        <tr>
+          <td>-</td>
+          <td>Subtraction</td>
+          <td><code>2 - 1</code></td>
+        </tr>
+        <tr>
+          <td>*</td>
+          <td>Multiplication</td>
+          <td><code>2 * 1</code></td>
+        </tr>
+        <tr>
+          <td>/</td>
+          <td>Division</td>
+          <td><code>2 / 1</code></td>
+        </tr>
+      </table>
+      <h3>Comparison Operators</h3>
+      <p>Used for comparison between variables or data types.</p>
+      <table>
+        <thead>
+          <td>Operator</td>
+          <td>Name</td>
+          <td>Usage</td>
+        </thead>
+        <tr>
+          <td>&gt</td>
+          <td>Greater than</td>
+          <td><code>x &gt y</code></td>
+        </tr>
+        <tr>
+          <td>&lt</td>
+          <td>Lesser than</td>
+          <td><code>x &lt y</code></td>
+        </tr>
+        <tr>
+          <td>==</td>
+          <td>Equal to</td>
+          <td><code>x == y</code></td>
+        </tr>
+        <tr>
+          <td>!=</td>
+          <td>Not equal to</td>
+          <td><code>x != y</code></td>
+        </tr>
+      </table>
+      
+      <h3>Logical operators</h3>
+      <p>Used to combine conditional statements</p>
+      <table>
+        <thead>
+          <td>Operator</td>
+          <td>Description</td>
+          <td>Usage</td>
+        </thead>
+        <tr>
+          <td>and</td>
+          <td>Returns true if both sides are true</td>
+          <td><code>x and y</code></td>
+        </tr>
+        <tr>
+          <td>or</td>
+          <td>Returns true if one side is true</td>
+          <td><code>x or y</code></td>
+        </tr>
+        <tr>
+          <td>not</td>
+          <td>Reverse the boolean value</td>
+          <td><code>not x</code></td>
+        </tr>
+      </table>
+      </section>
+    <section class="main-section" id="Conditionals">
+      <header><h2>Conditionals</h2></header>
+      <p>Conditionals are conditional statements, to choose between different options.There are three type of conditionals, namely <code>if</code>, <code>elif</code> and <code>else</code>.</p>
+      <h3>if</h3>
+        <p>
+          Checks whether the condition is true, if it is, it executes the code after the block. <br>
+          <p>Example:</p>
+          <code>if 2 > 3:</code><br>
+          <code>&nbsp&nbspprint("Hello")</code>
+        </p>
+    <h3>else</h3>
+    <p>
+      Typically used in conjuction with <code>if</code>, the code in the else block executes if the if statement returns false.
+      <p>Example:</p>
+      <code>if 2 > 3:</code><br>
+    <code>&nbsp&nbspprint("Hello")</code><br>
+    <code>else:</code><br>
+    <code>&nbsp&nbspprint("Else")</code>
+    </p>
+    <h3>elif</h3>
+  <p>Typically used if there is one or more condiiton to check.
+  <p>Example:</p>
+    <code>if 2 > 3:</code><br>
+    <code>&nbsp&nbspprint("Hello")</code><br>
+    <code>elif 2 == 3:</code><br>
+    <code>&nbsp&nbspprint("Impossible")</code>
+  </p>
+      </section>
+  <hr>
+  <p>Click here to view the full <a href="https://docs.python.org/3/">Python Documentation.</a></p>
+  </main>
+  
+  <aside>
+    <nav id="navbar">
+      <header><h1>Short Python Docs</h1></header>
+      <ul>
+        <li><a href="#Introduction" class="nav-link">Introduction</a></li>
+        <li><a href="#Variables" class="nav-link">Variables</a></li>
+        <li><a href="#Data_types" class="nav-link">Data Types</a></li>
+        <li><a href="#Operators" class="nav-link">Operators</a></li>
+        <li><a href="#Conditionals" class="nav-link">Conditionals</a></li>
+      </ul>
+    </nav>
+  </aside>
+<!--   <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> -->
+</body>
+</html>
+<!-- partial -->
+  
+</body>
+</html>
